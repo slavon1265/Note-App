@@ -7,7 +7,7 @@ export const Notes = ({notes}) =>{
                 <li className="list-group-item note" key={note.id}>
                     <div>
                         <strong>{note.title}</strong>
-                        <small>{new Date().toLocaleDateString()}</small>
+                        <small>{note.date}</small>
                     </div>
                     
                     <button type="button" className="btn btn-outline-danger btn-sm">&times;</button>
